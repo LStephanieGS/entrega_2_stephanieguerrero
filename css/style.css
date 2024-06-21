@@ -1,0 +1,266 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+* {
+  margin: 0;
+  padding: 0;
+  }
+body {
+  margin: 0 auto;
+}
+
+.banner {
+  align-items: flex-end;
+  background-color: #ddf4ff;
+  display: flex;
+  height: 777px;
+}
+
+.columna1 {
+  padding-left: 120px;
+  width: 50%;
+  padding-bottom: 130px;
+}
+
+.text1 {
+  color: #96bb7c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.text2 {
+  color: #252b42;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.text3 {
+  color: #737373;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 40px;
+}
+
+.butom {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.boton1 {
+  background-color: #96bb7c;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  height: 52px;
+  padding: 15px 40px 15px 40px;
+  width: 193px;
+}
+
+.boton2 {
+  background-color: transparent;
+  border: 1px solid #96bb7c;
+  border-radius: 5px;
+  color: #96bb7c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  height: 52px;
+  padding: 15px 40px 15px 40px;
+  width: 162px;
+}
+
+.logo {
+  padding-left: 136px;
+  padding-right: 136px;
+}
+
+.logo header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 70px;
+  height: 60px;
+}
+
+.buton1 {
+  background-color: transparent;
+  border: none;
+  color: #96bb7c;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+
+.buton2 {
+  background-color: #96bb7c;
+  color: #fff;
+  width: 137px;
+  height: 52px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  margin-left: 30px;
+}
+
+#tarjetas-cantidades {
+  font-family: "Montserrat", sans-serif;
+}
+
+#cantidades {
+  width: 1050px;
+  height: 264px;
+  text-align: center;
+  display: flex;
+  margin-left: 195px;
+  align-items: center;
+  padding-right: 80px;
+}
+
+#subtitulo-cant {
+  color: rgb(150, 187, 124);
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 700;
+}
+
+#texto-cant {
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+#cant {
+  width: 25%;
+  height: 104px;
+  line-height: 0px;
+}
+
+.cards_container {
+  background-color: #fff2f3;
+  padding: 150px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+.cards_container h2 {
+  font-size: 40px;
+  color: #252b42;
+  padding: 20px;
+}
+.cards_container .white_card {
+  width: 328px;
+  height: 268px;
+  background-color: #fff;
+  padding: 35px 40px 35px 40px;
+  margin: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.1);
+}
+.cards_container .white_card h5 {
+  font-size: 16px;
+  padding: 15px 0;
+}
+.cards_container .white_card p {
+  font-size: 14px;
+  color: #737373;
+  padding: 15px 0;
+}
+.cards .white_card hr {
+  width: 50px;
+  height: 2px;
+  background-color: #e74040;
+  border: none;
+  margin: 0;
+}
+.cards_container .white_card img {
+  width: 72px;
+}
+.container{
+  display: flex;
+  /* border: 1px solid black; */
+  width: 1050px;
+  height: 100%;
+  margin: 0 195px 0 195px ;
+}
+
+footer{
+  width: 1440px;
+  height: 74px;
+  background-color: #FAFAFA;
+  padding: 25px 0px 25px 0px;
+}
+
+footer a{
+  color: #96BB7C;
+}
+.row {
+  display: flex;
+}
+
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  /* border: 3px solid black; */
+  width: 522px;
+}
+
+.tex {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.col2 {
+  display: flex;
+  /* background-color: pink; */
+  /* border: 3px solid black; */
+  width: 522px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  display: inline-flex;
+  color: #96BB7C;
+  gap: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.fb {
+  width: 24px;
+  height: 24px;
+}
+
+.ig{
+  width: 24px;
+  height: 24px;
+}
+
+.tr{
+  width: 24px;
+  height: 20px;
+}
